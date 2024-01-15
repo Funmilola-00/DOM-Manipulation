@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced DOM Manipulation Example</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div id="myElement">Click buttons to change text and color!</div>
+
+    <div id="controlsContainer">
+      <button onclick="changeText()">Change Text</button>
+      <button onclick="changeColor()">Change Color</button>
+      <label for="fontSizeSlider">Font Size:</label>
+      <input
+        type="range"
+        id="fontSizeSlider"
+        min="10"
+        max="50"
+        step="1"
+        value="18"
+        oninput="changeFontSize(this.value)"
+      />
+      <input
+        type="color"
+        id="colorPicker"
+        onchange="changeCustomColor(this.value)"
+      />
+    </div>
+    <script src="Javascript.js"></script>
+  </body>
+</html>
