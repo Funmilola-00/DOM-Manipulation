@@ -1,9 +1,10 @@
 #myElement {
   padding: 20px;
   text-align: center;
-  font-size: 18px;
-  color: blue;
-  border: 1px solid #ccc;
+  font-size: 68px;
+  color: rgb(255, 0, 115);
+  border-radius: 30px;
+  border: 2px solid #bebdbd;
   margin: 20px;
   transition: all 0.3s ease-in-out;
 }
@@ -14,12 +15,42 @@
   margin-top: 20px;
 }
 
+.textButton {
+  background-color: rgb(70, 172, 172);
+  border-radius: 30px;
+  margin-top: 100px;
+  color: #ffffff;
+  border: 2px solid rgb(6, 198, 232);
+  padding: 20px;
+  width: 300px;
+}
+
+.color_button {
+  background-color: rgb(157, 53, 100);
+  border-radius: 30px;
+  margin-top: 100px;
+  color: #ffffff;
+  border: 2px solid rgb(142, 8, 66);
+  padding: 20px;
+  width: 300px;
+}
+
 input {
   margin: 10px;
   padding: 5px;
 }
 
 #fontSizeSlider {
-  width: 200px;
-  color: chocolate;
+  width: 400px;
+}
+
+.fontSize {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.color_pick {
+  margin-top: 100px;
+  padding: 10px;
+  background-color: rgb(211, 175, 193);
 }
